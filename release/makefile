@@ -26,7 +26,7 @@ update-config:
 
 
 ifdef start
-	soarchaind start --log_level info --minimum-gas-prices=0.0001udmotus
+	soarchaind start --log_level info --minimum-gas-prices=0.0001utmotus
 endif
 
 all: reset init config keys parameter_token_denomination allocate_genesis_accounts sign_genesis_transaction collect_genesis_tx validate_genesis
